@@ -1,0 +1,110 @@
+{
+ "patch_date": "2026-01-21",
+ "patch_title": "Update 3.18.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-18-0",
+ "slug": "update-3-18-0",
+ "n_changes": 6,
+ "changes": [
+  {
+   "patch_date": "2026-01-21",
+   "patch_title": "Update 3.18.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-18-0",
+   "weapon": "Staff",
+   "section": null,
+   "context_line": null,
+   "skill_or_mechanic_name": "Fireball Barrage",
+   "change_type": "new",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Fireball Barrage: Added a new Specialization requiring 5 points.",
+   "sub_lines": [
+    "When enabled, Fireball Barrage has an 80% chance to reduce the target's Damage Reduction by 30 for 5 seconds with a max stack count of 10.",
+    "Fireball Barrage's cooldown is increased by 9s when the Specialization is enabled.",
+    "This Specialization cannot be activated alongside the Mana Burn Specialization.",
+    "The Damage Reduction effect is only applied once even if multiple players hit the same target with Fireball Barrage while the Specialization is active."
+   ]
+  },
+  {
+   "patch_date": "2026-01-21",
+   "patch_title": "Update 3.18.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-18-0",
+   "weapon": "Wand and Tome",
+   "section": null,
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "new",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Mastery: Added additional effects to Dark Apostasy.",
+   "sub_lines": [
+    "Corrupted Obliteration and Obliterating Swamp now have an 80% chance to reduce the target's Damage Reduction by 40 for 3 seconds with a max stack count of 5.",
+    "Slothful Cage now has an 80% chance to reduce Shield Block Chance by 30% for 4 seconds."
+   ]
+  },
+  {
+   "patch_date": "2026-01-21",
+   "patch_title": "Update 3.18.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-18-0",
+   "weapon": "Orb",
+   "section": null,
+   "context_line": null,
+   "skill_or_mechanic_name": "Summon Satellite",
+   "change_type": "buff",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Summon Satellite: Increased the damage dealt when using Stellar Dash from 145% + 53 to 181% + 66.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2026-01-21",
+   "patch_title": "Update 3.18.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-18-0",
+   "weapon": "Orb",
+   "section": null,
+   "context_line": null,
+   "skill_or_mechanic_name": "Summon Satellite",
+   "change_type": "nerf",
+   "type_confidence": "high",
+   "before_value": "100%",
+   "after_value": "60%",
+   "change_text": "Summon Satellite: Decreased the damage dealt against monsters from 100% to 60%.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2026-01-21",
+   "patch_title": "Update 3.18.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-18-0",
+   "weapon": "Orb",
+   "section": null,
+   "context_line": null,
+   "skill_or_mechanic_name": "Summon Constellation",
+   "change_type": "new",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Summon Constellation: Added a new Specialization requiring 5 points.",
+   "sub_lines": [
+    "When enabled, has an 80% chance to reduce Shield Block Chance by 30% for 4 seconds.",
+    "This Specialization can be used alongside the Milky Way Specialization."
+   ]
+  },
+  {
+   "patch_date": "2026-01-21",
+   "patch_title": "Update 3.18.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-18-0",
+   "weapon": "Longbow",
+   "section": null,
+   "context_line": null,
+   "skill_or_mechanic_name": "Flash Wave",
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Flash Wave: Fixed an issue causing the Range Increase Specialization to not increase Flash Wave's width.",
+   "sub_lines": []
+  }
+ ]
+}

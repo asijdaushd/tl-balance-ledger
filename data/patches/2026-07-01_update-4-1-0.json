@@ -1,0 +1,54 @@
+{
+ "patch_date": "2026-07-01",
+ "patch_title": "Update 4.1.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-1-0",
+ "slug": "update-4-1-0",
+ "n_changes": 3,
+ "changes": [
+  {
+   "patch_date": "2026-07-01",
+   "patch_title": "Update 4.1.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-1-0",
+   "weapon": "Gauntlets",
+   "section": "Solisium Summer Splash",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "new",
+   "type_confidence": "medium",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Gauntlet weapon combination names have been added.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2026-07-01",
+   "patch_title": "Update 4.1.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-1-0",
+   "weapon": "Gauntlets",
+   "section": "Solisium Summer Splash",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "nerf",
+   "type_confidence": "medium",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "The Flesh Burst Mastery effect no longer locks enemies in place.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2026-07-01",
+   "patch_title": "Update 4.1.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-1-0",
+   "weapon": "Sword and Shield",
+   "section": "Solisium Summer Splash",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "buff",
+   "type_confidence": "medium",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "The Impenetrable skill now grants increased benefits when leveled in the Heroic tier.",
+   "sub_lines": []
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "patch_date": "2024-11-13",
+ "patch_title": "THRONE AND LIBERTY Update 1.7.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-7-0",
+ "slug": "update-1-7-0",
+ "n_changes": 1,
+ "changes": [
+  {
+   "patch_date": "2024-11-13",
+   "patch_title": "THRONE AND LIBERTY Update 1.7.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-7-0",
+   "weapon": "Dagger",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skills - Dagger: Fixed an issue that caused the effect from the passive skill Assassin Step to carry over when changing weapons.",
+   "sub_lines": []
+  }
+ ]
+}

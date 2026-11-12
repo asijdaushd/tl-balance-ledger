@@ -1,0 +1,24 @@
+{
+ "patch_date": "2025-06-11",
+ "patch_title": "THRONE AND LIBERTY Update 2.14.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-14-0",
+ "slug": "update-2-14-0",
+ "n_changes": 1,
+ "changes": [
+  {
+   "patch_date": "2025-06-11",
+   "patch_title": "THRONE AND LIBERTY Update 2.14.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-14-0",
+   "weapon": "Wand and Tome",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": "Vampiric Contract",
+   "change_type": "rework",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Wand: Vampiric Contract: Now grants its healing buffs when using targeted skills.",
+   "sub_lines": []
+  }
+ ]
+}

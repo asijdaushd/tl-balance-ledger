@@ -1,0 +1,39 @@
+{
+ "patch_date": "2025-08-06",
+ "patch_title": "Update 2.22.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-22-0",
+ "slug": "update-2-22-0",
+ "n_changes": 2,
+ "changes": [
+  {
+   "patch_date": "2025-08-06",
+   "patch_title": "Update 2.22.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-22-0",
+   "weapon": "Sword and Shield",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": "Shield Survival Technique",
+   "change_type": "nerf",
+   "type_confidence": "medium",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Sword and Shield: Shield Survival Technique: Removed the damage reduction effect granted by defending against a Fury attack within 0.5 seconds. Increased the shield amount granted when defending against a Wrath or Fury attack.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-08-06",
+   "patch_title": "Update 2.22.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-22-0",
+   "weapon": "Sword and Shield",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": "Stalwart Bastion",
+   "change_type": "nerf",
+   "type_confidence": "high",
+   "before_value": "9 seconds",
+   "after_value": "6 seconds",
+   "change_text": "Sword and Shield: Stalwart Bastion: Reduced duration from 9 seconds to 6 seconds. Targets affected by Stalwart Bastion must wait 45 seconds before receiving Stalwart Bastion effects from other casters. This does not apply to effects from the same caster.",
+   "sub_lines": []
+  }
+ ]
+}

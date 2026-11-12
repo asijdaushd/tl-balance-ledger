@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gauntlets — T&amp;L balance history</title><style>
+:root{
+  --bg:#12141a; --panel:#1a1d25; --panel2:#20242e; --line:#2c313d;
+  --fg:#e6e8ee; --muted:#98a0b3; --accent:#7aa2f7;
+  --buff:#3fb950; --nerf:#f85149; --rework:#d29922; --bugfix:#8b949e; --new:#58a6ff; --other:#6e7681;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font:15px/1.55 ui-sans-serif,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1000px;margin:0 auto;padding:28px 20px 80px}
+header h1{margin:0 0 6px;font-size:28px;letter-spacing:.3px}
+h2{font-size:19px;margin:0 0 10px}
+.sum{color:var(--muted);font-size:14px;margin-bottom:18px}
+.sum b{color:var(--fg)}
+.bar{position:sticky;top:0;z-index:5;background:rgba(18,20,26,.94);
+  backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
+  padding:10px 0;margin-bottom:22px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+select{background:var(--panel2);color:var(--fg);border:1px solid var(--line);
+  border-radius:6px;padding:6px 9px;font-size:13px;max-width:100%}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{background:var(--panel2);color:var(--muted);border:1px solid var(--line);
+  border-radius:999px;padding:4px 11px;font-size:12px;cursor:pointer;font-weight:600}
+.filters button.on{color:#0d1117}
+.filters button.on[data-t=buff]{background:var(--buff);border-color:var(--buff)}
+.filters button.on[data-t=nerf]{background:var(--nerf);border-color:var(--nerf)}
+.filters button.on[data-t=rework]{background:var(--rework);border-color:var(--rework)}
+.filters button.on[data-t=bugfix]{background:var(--bugfix);border-color:var(--bugfix)}
+.filters button.on[data-t=new]{background:var(--new);border-color:var(--new)}
+.filters button.on[data-t=other]{background:var(--other);border-color:var(--other)}
+.tl{position:relative;padding-left:26px}
+.tl:before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.patch{position:relative;margin:0 0 26px}
+.patch:before{content:"";position:absolute;left:-23px;top:12px;width:12px;height:12px;
+  border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+.phead{display:flex;flex-wrap:wrap;gap:10px;align-items:baseline;margin-bottom:8px}
+.pdate{font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
+.ptitle{font-size:17px;font-weight:700}
+.plink{font-size:12px}
+.chg{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--other);
+  border-radius:7px;padding:10px 13px;margin:7px 0}
+.chg[data-t=buff]{border-left-color:var(--buff)}
+.chg[data-t=nerf]{border-left-color:var(--nerf)}
+.chg[data-t=rework]{border-left-color:var(--rework)}
+.chg[data-t=bugfix]{border-left-color:var(--bugfix)}
+.chg[data-t=new]{border-left-color:var(--new)}
+.tag{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.6px;
+  text-transform:uppercase;padding:2px 7px;border-radius:4px;color:#0d1117;margin-right:8px;
+  vertical-align:1px}
+.tag.buff{background:var(--buff)}.tag.nerf{background:var(--nerf)}
+.tag.rework{background:var(--rework)}.tag.bugfix{background:var(--bugfix)}
+.tag.new{background:var(--new)}.tag.other{background:var(--other)}
+.ctx{color:var(--muted);font-size:13px;font-style:italic;margin:0 0 5px;
+  border-left:2px solid var(--line);padding-left:8px}
+.txt{margin:0}
+.subs{margin:6px 0 0 14px;padding:0;list-style:none}
+.subs li{color:var(--muted);font-size:13.5px;margin:3px 0;position:relative;padding-left:12px}
+.subs li:before{content:"\2013";position:absolute;left:0}
+.ba{margin-top:5px;font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ba b{color:var(--fg)}
+.meta{font-size:11.5px;color:var(--other);margin-top:5px}
+footer{margin-top:50px;border-top:1px solid var(--line);padding-top:14px;
+  color:var(--muted);font-size:12.5px}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;padding:6px 9px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:12px;margin:20px 0 34px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:14px 16px;
+  text-decoration:none;color:inherit;display:block}
+.card:hover{border-color:var(--accent)}
+.card h3{margin:0 0 4px;font-size:16px}
+.card p{margin:0 0 6px;color:var(--muted);font-size:12.5px}
+.pill{display:inline-block;background:var(--panel2);border:1px solid var(--line);
+  border-radius:999px;padding:1px 8px;font-size:11px;color:var(--muted);margin:2px 3px 0 0}
+.scroll{overflow-x:auto}
+</style></head><body><div class="wrap"><header><h1>Gauntlets &mdash; balance history</h1><div class="sum"><b>4</b> patches &middot; <b>20</b> recorded changes &middot; first <b>2026-07-01</b> &middot; last <b>2026-08-12</b> &middot; oldest first</div></header><div class="bar"><select id="jump"><option value="">Jump to patch&hellip;</option><option value="p0">2026-07-01 — Update 4.1.0</option><option value="p1">2026-07-15 — Update 4.3.0</option><option value="p2">2026-07-29 — Update 4.5.0</option><option value="p3">2026-08-12 — Update 4.7.0</option></select><div class="filters"><button class="on" data-t="buff">Buff <span style="opacity:.75">2</span></button><button class="on" data-t="nerf">Nerf <span style="opacity:.75">2</span></button><button class="on" data-t="rework">Rework <span style="opacity:.75">2</span></button><button class="on" data-t="bugfix">Bug fix <span style="opacity:.75">4</span></button><button class="on" data-t="new">New <span style="opacity:.75">5</span></button><button class="on" data-t="other">Other <span style="opacity:.75">5</span></button></div></div><div class="tl"><section class="patch" id="p0"><div class="phead"><span class="pdate">2026-07-01</span><span class="ptitle">Update 4.1.0</span><a class="plink" href="https://www.playthroneandliberty.com/en-gb/news/articles/update-4-1-0" target="_blank" rel="noopener">source &#8599;</a></div><div class="chg" data-t="new"><p class="txt"><span class="tag new">new</span>Gauntlet weapon combination names have been added.</p><div class="meta">section: Solisium Summer Splash</div></div><div class="chg" data-t="nerf"><p class="txt"><span class="tag nerf">nerf</span>The Flesh Burst Mastery effect no longer locks enemies in place.</p><div class="meta">section: Solisium Summer Splash</div></div></section><section class="patch" id="p1"><div class="phead"><span class="pdate">2026-07-15</span><span class="ptitle">Update 4.3.0</span><a class="plink" href="https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0" target="_blank" rel="noopener">source &#8599;</a></div><div class="chg" data-t="other"><p class="ctx">Balance Changes</p><p class="txt"><span class="tag other">other</span>Mirror Boutique [Ventius Golden Gauntlets]</p><ul class="subs"><li>Fixed an issue where effects and sounds were not playing during Gauntlets and Claw basic attacks.</li></ul><div class="meta">section: Balance Changes · skill/mechanic: Mirror Boutique [Ventius Golden Gauntlets] · tag confidence: low</div></div><div class="chg" data-t="other"><p class="ctx">Balance Changes</p><p class="txt"><span class="tag other">other</span>Explosive Flurry</p><ul class="subs"><li>Fixed an issue where the effect could be repeatedly applied in certain situations after activating Specialization 3 [Stun].</li></ul><div class="meta">section: Balance Changes · skill/mechanic: Explosive Flurry · tag confidence: low</div></div><div class="chg" data-t="other"><p class="ctx">Balance Changes</p><p class="txt"><span class="tag other">other</span>One-Inch Punch</p><ul class="subs"><li>Damage is now increased by 80% against monsters at Heroic level 5.</li></ul><div class="meta">section: Balance Changes · skill/mechanic: One-Inch Punch · tag confidence: low</div></div><div class="chg" data-t="other"><p class="ctx">Balance Changes</p><p class="txt"><span class="tag other">other</span>Bloodstorm Specialization 4 [Chain Skill]</p><ul class="subs"><li>Fixed an issue where the number of targets that could be damaged within range was abnormally applied when using Blood Talon skill.</li></ul><div class="meta">section: Balance Changes · skill/mechanic: Bloodstorm Specialization 4 [Chain Skill] · tag confidence: low</div></div><div class="chg" data-t="other"><p class="ctx">Balance Changes</p><p class="txt"><span class="tag other">other</span>Eclipse of Blood</p><ul class="subs"><li>Improved an issue where rapidly pressing the Eclipse of Blood skill button would cause the effect to be immediately removed after activation.</li><li>Added a 1-second restriction time before Composure can be used.</li><li>Effect has been adjusted as follows. Values shown are granted at Heroic level 5.</li><li>While the effect is active, boosts damage by 20.5% and increases the Base Damage of Claw by 100%. Decreases Damage Reduction by 160 and increases Bonus Damage by 160. Block Chance functions as Off-hand Weapon Activation Rate, and Off-hand Weapon Activation Rate becomes invalid. Some skills change. Consumes 8 Stamina per sec, and the effect ends when Stamina reaches 0. Decreases Stamina Cost of defensive skills by 20.</li></ul><div class="meta">section: Balance Changes · skill/mechanic: Eclipse of Blood · tag confidence: low</div></div></section><section class="patch" id="p2"><div class="phead"><span class="pdate">2026-07-29</span><span class="ptitle">Update 4.5.0</span><a class="plink" href="https://www.playthroneandliberty.com/en-gb/news/articles/update-4-5-0" target="_blank" rel="noopener">source &#8599;</a></div><div class="chg" data-t="new"><p class="txt"><span class="tag new">new</span>Chain Strike - [Smash Down]: Hit range increased from 4m to 5m. An effect has been added so Chain Strike – Smash Down can be used while using the Earthquake skill.</p><div class="ba">before <b>4m</b> &rarr; after <b>5m</b></div><div class="meta">section: Weapon and Equipment Skill Fixes and Balance Adjustments · skill/mechanic: Chain Strike - [Smash Down]</div></div><div class="chg" data-t="rework"><p class="ctx">Mobility Strike Specialization 2 [Mobility Enchant]: Specialization name changed to [Range Increase]. Required points reduced from 5 to 3. The effect of the Specialization has been adjusted:</p><p class="txt"><span class="tag rework">rework</span>Previous: Mobility Strike - Can now charge while moving. Afterimage - Attack range increases by 20%.</p><ul class="subs"><li>Updated: Afterimage - Attack range increases by 20%. Mobility Strike can now be charged while moving by default, without the need for a specific Specialization.</li></ul><div class="ba">before <b>5</b> &rarr; after <b>3</b></div><div class="meta">section: Weapon and Equipment Skill Fixes and Balance Adjustments · skill/mechanic: Previous</div></div><div class="chg" data-t="buff"><p class="txt"><span class="tag buff">buff</span>Sweep Specialization 3 [Movement Speed and Range Increase]: Movement Speed bonus has increased from 25% to 50%.</p><div class="ba">before <b>25%</b> &rarr; after <b>50%</b></div><div class="meta">section: Weapon and Equipment Skill Fixes and Balance Adjustments · skill/mechanic: Sweep Specialization 3 [Movement Speed and Range Increase]</div></div><div class="chg" data-t="new"><p class="txt"><span class="tag new">new</span>Explosive Flurry: New specialization [Cooldown Reduction] has been added. Requires 5 points. Reduces Explosive Barrage skill cooldown by 15%, and each Explosive Flurry hit reduces One-Inch Punch&#x27;s remaining cooldown by 5%.</p><div class="meta">section: Weapon and Equipment Skill Fixes and Balance Adjustments · skill/mechanic: Explosive Flurry</div></div><div class="chg" data-t="nerf"><p class="txt"><span class="tag nerf">nerf</span>Explosive Flurry Specialization 2 [Range Increase]: Required points reduced from 5 to 3.</p><div class="ba">before <b>5</b> &rarr; after <b>3</b></div><div class="meta">section: Weapon and Equipment Skill Fixes and Balance Adjustments · skill/mechanic: Explosive Flurry Specialization 2 [Range Increase]</div></div><div class="chg" data-t="buff"><p class="txt"><span class="tag buff">buff</span>Consecutive Claws: Improved so the skill can be used while jumping.</p><div class="meta">section: Weapon and Equipment Skill Fixes and Balance Adjustments · skill/mechanic: Consecutive Claws</div></div><div class="chg" data-t="bugfix"><p class="txt"><span class="tag bugfix">bugfix</span>Skill Core: Fear Erosion: Fixed an issue where the movement speed and defense reduction values were applied incorrectly when Fear Erosion was active, and the values in the effect tooltip were incorrect.</p><div class="meta">section: Weapon and Equipment Skill Fixes and Balance Adjustments · skill/mechanic: Skill Core: Fear Erosion</div></div></section><section class="patch" id="p3"><div class="phead"><span class="pdate">2026-08-12</span><span class="ptitle">Update 4.7.0</span><a class="plink" href="https://www.playthroneandliberty.com/en-gb/news/articles/update-4-7-0" target="_blank" rel="noopener">source &#8599;</a></div><div class="chg" data-t="new"><p class="ctx">Added 10 Skill Cores to Ramux&#x27;s drop table:</p><p class="txt"><span class="tag new">new</span>Gauntlets – Skill Core: Crimson Imprint</p><div class="meta">section: Additional Archboss Rewards - Ramux · skill/mechanic: Skill Core: Crimson Imprint</div></div><div class="chg" data-t="new"><p class="txt"><span class="tag new">new</span>Consecutive Claws: Added tooltip text indicating Bleeding can stack up to 10 times.</p><div class="meta">section: Balance Adjustments and Skill Bug Fixes · skill/mechanic: Consecutive Claws</div></div><div class="chg" data-t="rework"><p class="txt"><span class="tag rework">rework</span>Critical Hit / Short Jab: Critical Hit has been renamed to Short Jab.</p><ul class="subs"><li>Changed so the skill can now be used while moving.</li><li>Fixed an issue where the skill shared a cooldown with Orb&#x27;s Void Slash.</li></ul><div class="meta">section: Balance Adjustments and Skill Bug Fixes · skill/mechanic: Critical Hit / Short Jab</div></div><div class="chg" data-t="bugfix"><p class="txt"><span class="tag bugfix">bugfix</span>Sweep: Fixed an issue where the target&#x27;s Collision Resistance was ignored.</p><ul class="subs"><li>Fixed an issue that incorrectly increased the caster&#x27;s CC Resistance.</li></ul><div class="meta">section: Balance Adjustments and Skill Bug Fixes · skill/mechanic: Sweep</div></div><div class="chg" data-t="bugfix"><p class="txt"><span class="tag bugfix">bugfix</span>Explosive Flurry: Fixed an issue allowing continuous activation of Queen Bellandir&#x27;s Gravity Field and Enraged Queen Bellandir&#x27;s Gravity Field under certain conditions.</p><div class="meta">section: Balance Adjustments and Skill Bug Fixes · skill/mechanic: Explosive Flurry</div></div><div class="chg" data-t="bugfix"><p class="txt"><span class="tag bugfix">bugfix</span>Uncommon Attack Achievement Effect [Threat Suppression]: Corrected the tooltip to reflect that Base Damage increases up to 3.25% based on growth stage.</p><div class="meta">section: Balance Adjustments and Skill Bug Fixes · skill/mechanic: Uncommon Attack Achievement Effect [Threat Suppression]</div></div></section></div><footer>Source: official Throne and Liberty patch notes (playthroneandliberty.com). Change text is quoted verbatim; the buff / nerf / rework / bugfix tag is inferred, not official. <a href="index.html">&larr; all weapons</a></footer><script>
+(function(){
+  var active={buff:1,nerf:1,rework:1,bugfix:1,new:1,other:1};
+  function apply(){
+    document.querySelectorAll('.chg').forEach(function(c){
+      c.style.display = active[c.dataset.t] ? '' : 'none';
+    });
+    document.querySelectorAll('.patch').forEach(function(p){
+      var any=[].some.call(p.querySelectorAll('.chg'),function(c){return c.style.display!=='none';});
+      p.style.display = any ? '' : 'none';
+    });
+  }
+  document.querySelectorAll('.filters button').forEach(function(b){
+    b.addEventListener('click',function(){
+      active[b.dataset.t]=!active[b.dataset.t];
+      b.classList.toggle('on',!!active[b.dataset.t]);
+      apply();
+    });
+  });
+  var sel=document.getElementById('jump');
+  if(sel) sel.addEventListener('change',function(){
+    var el=document.getElementById(sel.value);
+    if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+  apply();
+})();
+</script></div></body></html>

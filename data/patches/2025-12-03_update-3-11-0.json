@@ -1,0 +1,69 @@
+{
+ "patch_date": "2025-12-03",
+ "patch_title": "Update 3.11.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-11-0",
+ "slug": "update-3-11-0",
+ "n_changes": 4,
+ "changes": [
+  {
+   "patch_date": "2025-12-03",
+   "patch_title": "Update 3.11.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-11-0",
+   "weapon": "Crossbow",
+   "section": "Artifacts",
+   "context_line": null,
+   "skill_or_mechanic_name": "Quick Fire",
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Quick Fire: Fixed an issue causing a higher amount of damage to be applied to Weakened enemies than intended.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-12-03",
+   "patch_title": "Update 3.11.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-11-0",
+   "weapon": "Crossbow",
+   "section": "Artifacts",
+   "context_line": null,
+   "skill_or_mechanic_name": "Quick Fire",
+   "change_type": "buff",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Quick Fire: Increased the damage boost against Weakened enemies from 20% +7 to 30% + 10.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-12-03",
+   "patch_title": "Update 3.11.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-11-0",
+   "weapon": "Crossbow",
+   "section": "Artifacts",
+   "context_line": null,
+   "skill_or_mechanic_name": "Lucien's Repeaters of Termination",
+   "change_type": "rework",
+   "type_confidence": "medium",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Lucien's Repeaters of Termination: Adjusted the Silver Reaper's Soul Harvest weapon skill to grant 25 stacks of Soul Harvest when using Mana Exchange while the Effect Boost Specialization is active.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-12-03",
+   "patch_title": "Update 3.11.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-11-0",
+   "weapon": "Wand and Tome",
+   "section": "Artifacts",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Mastery: Fixed an issue causing the Abyssal Burst Epic node to not function when attacking a target from a higher elevation.",
+   "sub_lines": []
+  }
+ ]
+}

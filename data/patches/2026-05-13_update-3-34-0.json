@@ -1,0 +1,41 @@
+{
+ "patch_date": "2026-05-13",
+ "patch_title": "Update 3.34.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-34-0",
+ "slug": "update-3-34-0",
+ "n_changes": 2,
+ "changes": [
+  {
+   "patch_date": "2026-05-13",
+   "patch_title": "Update 3.34.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-34-0",
+   "weapon": "Crossbow",
+   "section": "Epic Equipment Skill Effects and Weapon Skill Issues have been Fixed",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "medium",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Ambidexterity — Fixed an issue where the Critical Hit Chance increase applied when attacking with an off-hand weapon differed from the tooltip.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2026-05-13",
+   "patch_title": "Update 3.34.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-34-0",
+   "weapon": "Orb",
+   "section": "Epic Equipment Skill Effects and Weapon Skill Issues have been Fixed",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "medium",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Temporal Leap — Fixed an issue where the effect that reduces the cooldowns of attack and control skills while active was being applied to the wrong type of skill.",
+   "sub_lines": [
+    "Affected: Wand Blessed Barrier Specialization 2 [Targets Expanded], [Fountain of Life], Fountain of Life Specialization 2 [Range Increase]"
+   ]
+  }
+ ]
+}

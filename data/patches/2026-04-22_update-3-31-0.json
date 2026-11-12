@@ -1,0 +1,43 @@
+{
+ "patch_date": "2026-04-22",
+ "patch_title": "Update 3.31.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-31-0",
+ "slug": "update-3-31-0",
+ "n_changes": 2,
+ "changes": [
+  {
+   "patch_date": "2026-04-22",
+   "patch_title": "Update 3.31.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-31-0",
+   "weapon": "Dagger",
+   "section": "Arena",
+   "context_line": "Arena",
+   "skill_or_mechanic_name": "[Umbral Spirit], Umbral Spirit Specialization 1 [Thunder Spirit]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "[Umbral Spirit], Umbral Spirit Specialization 1 [Thunder Spirit]",
+   "sub_lines": [
+    "Fixed an issue where, when this skill was used, combat state would not end until a set amount of time had passed, even after its effect had ended."
+   ]
+  },
+  {
+   "patch_date": "2026-04-22",
+   "patch_title": "Update 3.31.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-3-31-0",
+   "weapon": "Spear",
+   "section": "Arena",
+   "context_line": "Arena",
+   "skill_or_mechanic_name": "[Death Knell]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "[Death Knell]",
+   "sub_lines": [
+    "Fixed an issue where the activation chances of this skill were switched between PvP and PvE. Old: PvP Activation Chance: 15%, PvE Activation Chance: 30%; New: PvP Activation Chance: 30%, PvE Activation Chance: 15%"
+   ]
+  }
+ ]
+}

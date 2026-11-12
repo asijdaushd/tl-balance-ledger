@@ -1,0 +1,39 @@
+{
+ "patch_date": "2025-01-22",
+ "patch_title": "THRONE AND LIBERTY Update 1.13.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-13-0",
+ "slug": "update-1-13-0",
+ "n_changes": 2,
+ "changes": [
+  {
+   "patch_date": "2025-01-22",
+   "patch_title": "THRONE AND LIBERTY Update 1.13.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-13-0",
+   "weapon": "Spear",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": "Gale Rush",
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Spear: Gale Rush: Fixed an issue where the CC removal specialization would sometimes not apply when targeting allies at a distance.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-01-22",
+   "patch_title": "THRONE AND LIBERTY Update 1.13.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-13-0",
+   "weapon": "Spear",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": "Gale Rush",
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Spear: Gale Rush: Fixed an issue that could prevent Gale Rush from being used on enemy targets at slightly higher elevations than the attacker.",
+   "sub_lines": []
+  }
+ ]
+}

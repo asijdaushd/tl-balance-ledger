@@ -1,0 +1,54 @@
+{
+ "patch_date": "2025-08-20",
+ "patch_title": "Update 2.24.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-24-0",
+ "slug": "update-2-24-0",
+ "n_changes": 3,
+ "changes": [
+  {
+   "patch_date": "2025-08-20",
+   "patch_title": "Update 2.24.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-24-0",
+   "weapon": "Sword and Shield",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Sword and Shield: Fixed an issue allowing Counter Barrier to block some skills every 0.1 seconds instead of 0.5 seconds.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-08-20",
+   "patch_title": "Update 2.24.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-24-0",
+   "weapon": "Wand and Tome",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "rework",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Wand: Ray of Disaster now damages multiple targets when the Targets Expanded Specialization is applied.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-08-20",
+   "patch_title": "Update 2.24.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-24-0",
+   "weapon": "Spear",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Spear: Fixed an issue causing Rising Slash to not go on cooldown when blocking at the same time it was used while Deluzhnoa's Serrated Shard was equipped.",
+   "sub_lines": []
+  }
+ ]
+}

@@ -1,0 +1,544 @@
+{
+ "patch_date": "2026-07-15",
+ "patch_title": "Update 4.3.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+ "slug": "update-4-3-0",
+ "n_changes": 31,
+ "changes": [
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Greatsword",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Precision Dash Specialization 5 [Charged Damage Increase]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Precision Dash Specialization 5 [Charged Damage Increase]",
+   "sub_lines": [
+    "Effect now only applies the damage increase in PvE"
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Greatsword",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Death Blow Specialization 2 [Cooldown Reduction]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Death Blow Specialization 2 [Cooldown Reduction]",
+   "sub_lines": [
+    "Fixed an issue where the effect would activate even without the Specialization being active."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Greatsword",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Death Blow Specialization 3 [Damage Increase]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Death Blow Specialization 3 [Damage Increase]",
+   "sub_lines": [
+    "Fixed an issue where the damage amplification effect was not applying to some Collision: Knockdown effects."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Greatsword",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Suppressing Strike",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Suppressing Strike",
+   "sub_lines": [
+    "Heavy Attack Damage that increases when Stun, Bind, or Collision is applied to a target has been reduced from 28% to 14% at Heroic Level 5."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Sword and Shield",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Roaring Shackles",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Roaring Shackles",
+   "sub_lines": [
+    "Effect now applies when using the Weaken: Taunt effect from Provoking Roar or Roar of Rage and has a 3 second reactivation cooldown."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Sword and Shield",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Victory Strike",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Victory Strike",
+   "sub_lines": [
+    "5% damage amplification effect for A Shot at Victory, Annihilation Blade, and Earth Strike has been added."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Sword and Shield",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Controlling Rake, Controlling Rake Specialization 1 [Grasping Hook]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Controlling Rake, Controlling Rake Specialization 1 [Grasping Hook]",
+   "sub_lines": [
+    "Fixed an issue where skill use range was abnormally applied at Heroic Level 1 and above."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Dagger",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Inject Venom",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Inject Venom",
+   "sub_lines": [
+    "The additional use skill of Inject Venom no longer consumes Weaken: Thunderclouds stacks, and Critical Damage no longer increases."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Dagger",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Inject Venom Specialization 1 [Lightning Infusion]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Inject Venom Specialization 1 [Lightning Infusion]",
+   "sub_lines": [
+    "The additional use skill of Lightning Infusion no longer consumes Weaken: Poison stacks, and Heavy Attack Damage no longer increases."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Dagger",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Foretold Agony",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Foretold Agony",
+   "sub_lines": [
+    "The Foretold Agony effect has been changed to the following: On landing a melee attack, has a 15% chance to activate Venomous Edge. This damage ignores the target's Defense and Evasion. Upon equipping the Creeping Death or Venomous Swamp core, summons a Poison Cloud that deals damage ignoring the target's Defense and Evasion each time Venomous Edge is activated."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Crossbow",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Support Fire",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Support Fire",
+   "sub_lines": [
+    "Fixed an issue where the PvP damage dealt reduction effect of Quick Fire was not applying to targets affected by Weaken effects."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Crossbow",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Focused Barrage",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Focused Barrage",
+   "sub_lines": [
+    "Added a 30% monster damage amplification effect for Merciless Barrage, Annihilation Barrage Shot, and Unrelenting Annihilation."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Longbow",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Decisive Sniping",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Decisive Sniping",
+   "sub_lines": [
+    "Updated so that the DoT effect of Decisive Sniping, when enhanced by Limit Break, ignores shields."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Longbow",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Decisive Sniping Specialization 5 [Decisive Bombardment]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Decisive Sniping Specialization 5 [Decisive Bombardment]",
+   "sub_lines": [
+    "Fixed the damage timing to match the arrow projectile hit timing."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Longbow",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Pierce Shot",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Pierce Shot",
+   "sub_lines": [
+    "Fixed the DoT effect to ignore shields."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Staff",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Icebound Tomb Specialization 1 [Icebound Armor]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Icebound Tomb Specialization 1 [Icebound Armor]",
+   "sub_lines": [
+    "Changed the self-Petrification: Freeze duration to 1 second."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Spear",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Blue Flash",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Blue Flash",
+   "sub_lines": [
+    "The maximum obtainable number of Shock Charges has been changed to 5.",
+    "New effects have been added to Thunder Javelin and Chain Lightning Slash.",
+    "Weaken: Shock",
+    "When Lightning Javelin and Explosive Lightning Javelin damage lands as a Critical Hit, it applies the Weaken: Shock effect. Weaken: Shock lasts for 6 seconds and stacks up to 5 times. At 5 stacks, deals 340% + 150 damage to the target and is removed."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Spear",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Piercing Thunder",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Piercing Thunder",
+   "sub_lines": [
+    "Added a 10% damage amplification effect for the Javelin Inferno skill."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Spear",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Night of Thunderstorms",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Night of Thunderstorms",
+   "sub_lines": [
+    "Added a 10% damage amplification effect for the Explosive Fury Damage skill.",
+    "Added a 30% damage amplification effect for Weaken: Electrocution 5-stack detonation."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Spear",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Rising Slash, Rising Slash Specialization 4 [Slaughtering Slash]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Rising Slash, Rising Slash Specialization 4 [Slaughtering Slash]",
+   "sub_lines": [
+    "Changed so that the final hit of Rising Slash and Slaughtering Slash can consume and detonate self-applied Weaken: Shock stacks."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Spear",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Hour of Judgment",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Hour of Judgment",
+   "sub_lines": [
+    "Decreased the PvP Melee Heavy Attack Chance granted from 300 to 200."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Orb",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Summon Constellation Specialization 1 [Milky Way]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Summon Constellation Specialization 1 [Milky Way]",
+   "sub_lines": [
+    "Fixed an issue where the cooldown reduction effect for all skills was abnormally applied when using Specialization 3 [Block Chance Reduction] combined with Crossbow [Selfless Diffusion] effect."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Orb",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Redemptive Star",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Redemptive Star",
+   "sub_lines": [
+    "Added a 5% HP recovery amplification effect for Purifying Star."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Orb",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Star of Rest",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Star of Rest",
+   "sub_lines": [
+    "Effect is now provided when using either Healing Star or Purifying Star."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Orb",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Nebula's Pulsation",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Nebula's Pulsation",
+   "sub_lines": [
+    "Added a 5% HP recovery amplification effect for Restoring Constellation."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Orb",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Skill Core: Nebula's Echo",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Skill Core: Nebula's Echo",
+   "sub_lines": [
+    "Added a 5% HP recovery amplification effect for Restoring Constellation.",
+    "Fixed an issue where the base damage reduction effect was applied when the Nebula Resonance skill effect was re-applied while already active."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Gauntlets",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Mirror Boutique [Ventius Golden Gauntlets]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Mirror Boutique [Ventius Golden Gauntlets]",
+   "sub_lines": [
+    "Fixed an issue where effects and sounds were not playing during Gauntlets and Claw basic attacks."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Gauntlets",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Explosive Flurry",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Explosive Flurry",
+   "sub_lines": [
+    "Fixed an issue where the effect could be repeatedly applied in certain situations after activating Specialization 3 [Stun]."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Gauntlets",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "One-Inch Punch",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "One-Inch Punch",
+   "sub_lines": [
+    "Damage is now increased by 80% against monsters at Heroic level 5."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Gauntlets",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Bloodstorm Specialization 4 [Chain Skill]",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Bloodstorm Specialization 4 [Chain Skill]",
+   "sub_lines": [
+    "Fixed an issue where the number of targets that could be damaged within range was abnormally applied when using Blood Talon skill."
+   ]
+  },
+  {
+   "patch_date": "2026-07-15",
+   "patch_title": "Update 4.3.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-4-3-0",
+   "weapon": "Gauntlets",
+   "section": "Balance Changes",
+   "context_line": "Balance Changes",
+   "skill_or_mechanic_name": "Eclipse of Blood",
+   "change_type": "other",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Eclipse of Blood",
+   "sub_lines": [
+    "Improved an issue where rapidly pressing the Eclipse of Blood skill button would cause the effect to be immediately removed after activation.",
+    "Added a 1-second restriction time before Composure can be used.",
+    "Effect has been adjusted as follows. Values shown are granted at Heroic level 5.",
+    "While the effect is active, boosts damage by 20.5% and increases the Base Damage of Claw by 100%. Decreases Damage Reduction by 160 and increases Bonus Damage by 160. Block Chance functions as Off-hand Weapon Activation Rate, and Off-hand Weapon Activation Rate becomes invalid. Some skills change. Consumes 8 Stamina per sec, and the effect ends when Stamina reaches 0. Decreases Stamina Cost of defensive skills by 20."
+   ]
+  }
+ ]
+}

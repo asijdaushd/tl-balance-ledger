@@ -1,0 +1,69 @@
+{
+ "patch_date": "2025-05-14",
+ "patch_title": "THRONE AND LIBERTY Update 2.10.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-10-0",
+ "slug": "update-2-10-0",
+ "n_changes": 4,
+ "changes": [
+  {
+   "patch_date": "2025-05-14",
+   "patch_title": "THRONE AND LIBERTY Update 2.10.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-10-0",
+   "weapon": "Staff",
+   "section": "Combat",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Staff: Fixed an issue causing the Mana Regen effect from Inner Peace to be lost upon receiving a CC effect while the Immune to CC Specialization was active.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-05-14",
+   "patch_title": "THRONE AND LIBERTY Update 2.10.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-10-0",
+   "weapon": "Crossbow",
+   "section": "Combat",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Crossbow: Fixed an issue causing the incorrect icon to be shown in various locations when the Wild Barrage Specialization was active on Merciless Barrage.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-05-14",
+   "patch_title": "THRONE AND LIBERTY Update 2.10.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-10-0",
+   "weapon": "Wand and Tome",
+   "section": "Combat",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "rework",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Wand: Ray of Disaster now deals damage to moving targets.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-05-14",
+   "patch_title": "THRONE AND LIBERTY Update 2.10.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-2-10-0",
+   "weapon": "Greatsword",
+   "section": "Combat",
+   "context_line": null,
+   "skill_or_mechanic_name": null,
+   "change_type": "rework",
+   "type_confidence": "low",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Greatsword: Mastery: The Reckless Assault Mastery Node now grants the described effects.",
+   "sub_lines": []
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "patch_date": "2025-02-05",
+ "patch_title": "THRONE AND LIBERTY Update 1.14.0",
+ "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-14-0",
+ "slug": "update-1-14-0",
+ "n_changes": 2,
+ "changes": [
+  {
+   "patch_date": "2025-02-05",
+   "patch_title": "THRONE AND LIBERTY Update 1.14.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-14-0",
+   "weapon": "Dagger",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": "Block Blade",
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Block Blade: Fixed an issue that gave the character a movement speed increase when blocking a Fury attack skill while stationary.",
+   "sub_lines": []
+  },
+  {
+   "patch_date": "2025-02-05",
+   "patch_title": "THRONE AND LIBERTY Update 1.14.0",
+   "source_url": "https://www.playthroneandliberty.com/en-gb/news/articles/update-1-14-0",
+   "weapon": "Greatsword",
+   "section": "General",
+   "context_line": null,
+   "skill_or_mechanic_name": "Ascending Slash",
+   "change_type": "bugfix",
+   "type_confidence": "high",
+   "before_value": null,
+   "after_value": null,
+   "change_text": "Ascending Slash: Fixed an issue that prevented players from being knocked prone after being put to Sleep with the Wand's Cursed Nightmare skill when the Deep Sleep Specialization was active.",
+   "sub_lines": []
+  }
+ ]
+}
